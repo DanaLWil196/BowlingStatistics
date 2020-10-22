@@ -10,37 +10,47 @@
         <!--Information about Person-->
         <RadioButton x:Name="Female" Content="Female" HorizontalAlignment="Left" VerticalAlignment="Top" Width="61" Margin="51,0,0,0"/>
         <RadioButton x:Name="Male" Content="Male" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46"/>
-        <TextBlock Text="Your Name: " Margin="126,0,301,199"/>
-        <TextBox x:Name="yourName" HorizontalAlignment="Left" Height="15" Margin="191,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" FontSize="8" Text=""/>
+        <RadioButton x:Name="Other" Content="Other" HorizontalAlignment="Left" VerticalAlignment="Top" Width="61" Margin="112,0,0,0"/>
+        <TextBlock Text="Your Name: " Margin="132,17,295,182"/>
+        <TextBox x:Name="yourName" HorizontalAlignment="Left" Height="15" Margin="197,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" FontSize="8" Text=""/>
+        <TextBlock x:Name="yourGender" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="10,21,0,0" Height="36" Width="117"
+            Visibility="Hidden"/>
 
         <!--Clear and Exit-->
         <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Width="54" Click="ExitButton_Click" Margin="438,0,0,199"/>
         <Button x:Name="ClearButton" Content="Clear" HorizontalAlignment="Center" VerticalAlignment="Center" Width="54" Click="ClearButton_Click" Margin="379,0,59,199"/>
-        <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Center" VerticalAlignment="Center" Width="54" Click="CalculateButton_Click" Margin="320,0,118,199"/>
+        <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Center" VerticalAlignment="Center" Width="54" Click="CalculateButton_Click"
+                Margin="320,0,118,199"/>
 
         <!--Games-->
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Game 1" VerticalAlignment="Top" Margin="57,62,0,0" Background="Yellow"/>
-        <TextBox x:Name="Game1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="51,90,0,0" Height="31" Width="53" Background="LightYellow" TextChanged="Game1_TextChanged"/>
+        <TextBox x:Name="Game1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="51,90,0,0" Height="31" Width="53" Background="LightYellow"
+                 TextChanged="Game1_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Game 2" VerticalAlignment="Top" Margin="215,62,0,0" Background="Yellow"/>
-        <TextBox x:Name="Game2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="209,90,0,0" Height="31" Width="53" Background="LightYellow" TextChanged="Game2_TextChanged"/>
+        <TextBox x:Name="Game2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="209,90,0,0" Height="31" Width="53" Background="LightYellow"
+                 TextChanged="Game2_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Game 3" VerticalAlignment="Top" Margin="406,62,0,0" Background="Yellow"/>
-        <TextBox x:Name="Game3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="399,90,0,0" Height="31" Width="53" Background="LightYellow" TextChanged="Game3_TextChanged"/>
+        <TextBox x:Name="Game3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="399,90,0,0" Height="31" Width="53" Background="LightYellow"
+                 TextChanged="Game3_TextChanged"/>
 
         <!--Total Score-->
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Total Score" VerticalAlignment="Top" Margin="34,146,0,0" Background="Yellow"/>
-        <TextBlock x:Name="TotalScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="36,167,0,0" Height="31" Width="53" Background="LightYellow"/>
+        <TextBlock x:Name="TotalScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="36,167,0,0" Height="31" Width="53"
+                   Background="LightYellow"/>
 
         <!--Average Score-->
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Average Score" VerticalAlignment="Top" Margin="146,146,0,0" Background="Yellow"/>
-        <TextBlock x:Name="AverageScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="158,167,0,0" Height="31" Width="53" Background="LightYellow"/>
+        <TextBlock x:Name="AverageScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="158,167,0,0" Height="31" Width="53"
+                   Background="LightYellow"/>
 
         <!--Handicap Score-->
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Handicap Score" VerticalAlignment="Top" Margin="254,146,0,0" Background="Yellow"/>
-        <TextBlock x:Name="HandicapScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="268,167,0,0" Height="31" Width="53" Background="LightYellow"/>
+        <TextBlock x:Name="HandicapScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="268,167,0,0" Height="31" Width="53"
+                   Background="LightYellow"/>
 
         <!--High Game-->
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="High Game" VerticalAlignment="Top" Margin="373,146,0,0" Background="Yellow"/>
-        <TextBlock x:Name="HighGame" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="380,167,0,0" Height="31" Width="53" Background="LightYellow"/>
-
+        <TextBlock x:Name="HighGame" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="380,167,0,0" Height="31" Width="53"
+                   Background="LightYellow"/>
     </Grid>
 </Window>
