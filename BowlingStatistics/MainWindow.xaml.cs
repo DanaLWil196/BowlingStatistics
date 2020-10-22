@@ -20,6 +20,8 @@ namespace BowlingStatistics
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+
         public MainWindow()
         {
             InitializeComponent();
@@ -44,7 +46,25 @@ namespace BowlingStatistics
 
         private void CalculateButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            //TotalScore.Text = ;
+            //AverageScore.Text = ;
+            //HandicapScore.Text = ;
+            //HighGame.Text = ;
+        }
+
+        private void Game1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Game2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Game3_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
